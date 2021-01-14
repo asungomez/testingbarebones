@@ -1,0 +1,27 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-testingbarebones-dev-110941-authRole",
+      "UnauthRoleArn": "arn:aws:iam::291311682549:role/amplify-testingbarebones-dev-110941-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::291311682549:role/amplify-testingbarebones-dev-110941-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-testingbarebones-dev-110941-deployment",
+      "UnauthRoleName": "amplify-testingbarebones-dev-110941-unauthRole",
+      "StackName": "amplify-testingbarebones-dev-110941",
+      "StackId": "arn:aws:cloudformation:us-east-2:291311682549:stack/amplify-testingbarebones-dev-110941/a0d3a750-5650-11eb-be2e-02866677aab0",
+      "AmplifyAppId": "d21vc104b1ecso"
+    },
+    "categories": {
+      "auth": {
+        "testingbarebonesauth": {}
+      },
+      "function": {
+        "testingbarebonesauthCustomMessage": {
+          "REDIRECTURL": "http://localhost:3000/",
+          "EMAILSUBJECT": "My verification",
+          "EMAILMESSAGE": "Your link is"
+        }
+      }
+    }
+  }
+}
